@@ -1,8 +1,6 @@
 # Zendesk SDk Flutter
 
-**Messaging** is a "user-based" chat
-
-**Live Chat** is a "session-based" chat
+Currently only supports Messaging on Zendesk V2 SDK
  
 - **Better UI (Native)**
 - **Chat history**
