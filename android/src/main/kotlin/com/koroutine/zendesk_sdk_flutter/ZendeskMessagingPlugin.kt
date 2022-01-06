@@ -41,6 +41,7 @@ class ZendeskMessagingPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
                 }
                 val channelKey = call.argument<String>("channelKey")!!
                 zendeskMessaging.initialize(channelKey)
+                isInitialize = true;
             }
             "show" -> {
                 if (!isInitialize) {
