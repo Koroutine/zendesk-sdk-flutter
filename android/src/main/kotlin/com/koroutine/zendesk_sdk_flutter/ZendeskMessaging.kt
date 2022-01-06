@@ -1,6 +1,6 @@
 import android.content.Intent
 import android.util.Log
-import com.chyiiiiiiiiiiiiii.zendesk_messaging.ZendeskMessagingPlugin
+import com.koroutine.zendesk_sdk_flutter.ZendeskMessagingPlugin
 import io.flutter.plugin.common.MethodChannel
 import zendesk.messaging.android.FailureCallback
 import zendesk.messaging.android.Messaging

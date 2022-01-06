@@ -15,7 +15,7 @@ public class SwiftZendeskMessagingPlugin: NSObject, FlutterPlugin {
   }
     
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "zendesk_messaging", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "zendesk_sdk_flutter", binaryMessenger: registrar.messenger())
     let instance = SwiftZendeskMessagingPlugin(channel: channel)
     registrar.addMethodCallDelegate(instance, channel: channel)
     registrar.addApplicationDelegate(instance)

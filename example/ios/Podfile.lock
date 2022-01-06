@@ -2,7 +2,7 @@ PODS:
   - Flutter (1.0.0)
   - Zendesk (1.0.0):
     - ZendeskSDKConversationKit (~> 0.7.0)
-  - zendesk_messaging (0.0.1):
+  - zendesk_sdk_flutter (0.0.1):
     - Flutter
     - ZendeskSDKMessaging (~> 2.0.0)
   - ZendeskSDKConversationKit (0.7.0):
@@ -26,7 +26,7 @@ PODS:
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - zendesk_messaging (from `.symlinks/plugins/zendesk_messaging/ios`)
+  - zendesk_sdk_flutter (from `.symlinks/plugins/zendesk_sdk_flutter/ios`)
 
 SPEC REPOS:
   trunk:
@@ -43,13 +43,13 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  zendesk_messaging:
-    :path: ".symlinks/plugins/zendesk_messaging/ios"
+  zendesk_sdk_flutter:
+    :path: ".symlinks/plugins/zendesk_sdk_flutter/ios"
 
 SPEC CHECKSUMS:
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
   Zendesk: 1103ca2153f7ac4d2129c6b314248e9ec5876e5f
-  zendesk_messaging: c3115d5c77a3e38a7272aada82e6acf5a34fd429
+  zendesk_sdk_flutter: e39d542d075bbe05f26fe81598f858d98d551df7
   ZendeskSDKConversationKit: 18cb471971d3be360e8344344d15374c578480f0
   ZendeskSDKFayeClient: bf297da49ca04ba96b4fd7aa8e4a2865e91fcd3a
   ZendeskSDKHTTPClient: 25592b10c405b59e93386edced1ffd88cdcd06d4

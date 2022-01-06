@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zendesk_messaging/zendesk_messaging.dart';
+import 'package:zendesk_sdk_flutter/zendesk_messaging.dart';
 
 void main() {
   runApp(const MyApp());

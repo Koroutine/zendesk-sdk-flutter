@@ -5,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
 class ZendeskMessaging {
-  static const MethodChannel _channel = MethodChannel('zendesk_messaging');
+  static const MethodChannel _channel = MethodChannel('zendesk_sdk_flutter');
 
   static Future<void> initialize({
     required String androidChannelKey,
