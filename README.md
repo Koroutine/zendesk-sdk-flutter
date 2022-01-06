@@ -1,6 +1,4 @@
-# Zendesk Messaging
-
-![](Messaging.png)
+# Zendesk SDk Flutter
 
 **Messaging** is a "user-based" chat
 
@@ -12,17 +10,10 @@
 
 -------------------
 
-## Setup
+## Setup 
 ### 1. Enable agent work-space
-![](screenshot/screenshot_1.png)
 ### 2. Enable Messaging
-![](screenshot/screenshot_2.png)
-### 
-![](screenshot/screenshot_3.png)
 ### 3. Add channel and get key
-![](screenshot/screenshot_4.png)
-### 
-![](screenshot/screenshot_5.png)
 
 ## How to use?
 ### Initialize
@@ -65,8 +56,4 @@ if the customer is not active in the foreground, the room will be closed automat
 - [Agent Workspace for messaging](https://support.zendesk.com/hc/en-us/articles/360055902354-Agent-Workspace-for-messaging)
 - [Working with messaging in your Android and iOS SDKs](https://support.zendesk.com/hc/en-us/articles/1260801714930-Working-with-messaging-in-your-Android-and-iOS-SDKs)
 
-## About Me
-- Medium：[Yii Chen](https://ab20803.medium.com/)
-- Youtube：[Yii](https://www.youtube.com/user/a22601807/videos)
-- Email：<ab20803@gmail.com>
 
